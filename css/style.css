@@ -57,6 +57,7 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
+  max-width: 496px;
 }
 .button-guality {
   background-color: #4d5ae5;
