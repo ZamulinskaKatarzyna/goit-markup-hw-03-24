@@ -43,6 +43,7 @@ body {
 .menu-items {
   display: flex;
   gap: 40px;
+  list-style-type: none;
 }
 .main-menu-list {
   font-size: 16px;
@@ -69,6 +70,7 @@ body {
 .address-quality {
   display: flex;
   gap: 40px;
+  list-style-type: none;
 }
 .address-list {
   line-height: 1.5;
@@ -86,16 +88,20 @@ body {
 .background-section-one {
   background-color: #2e2f42;
   padding: 188px 472px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
-.text-page {
+.title-page {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   font-weight: bold;
   letter-spacing: 0.02em;
   color: #ffffff;
-  text-align: center;
   max-width: 496px;
+  display: block;
 }
 .button-guality {
   background-color: #4d5ae5;
@@ -111,7 +117,6 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
 }
 .button-guality:hover,
 .button-guality:focus {
@@ -140,9 +145,10 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.section-goals-list {
+.goals-list {
   display: flex;
   gap: 24px;
+  list-style-type: none;
 }
 .goals-list-items {
   width: calc((100% - 72px) / 4);
@@ -152,14 +158,25 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  text-align: left;
+}
+.team-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .paragraf-guality-team {
   text-align: center;
 }
-.text-list-team {
+.foto-list-team {
   background-color: #f4f4fd;
   display: flex;
   gap: 24px;
+  list-style-type: none;
 }
 .list-team-items {
   width: calc((100% - 72px) / 4);
@@ -167,14 +184,15 @@ body {
 }
 .name-team {
   padding: 32px 0px;
+  background-color: #ffffff;
 }
-.third-heading {
+.our-goals-heading {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: center;
+  text-align: left;
   margin-bottom: 8px;
 }
 img {
@@ -197,18 +215,20 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.portfolio-text-list {
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  list-style-type: none;
 }
 
 .portfolio-items-quality {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  width: calc((100% - 48px) / 3);
+  display: block;
+  align-items: center;
 }
 .background-section-footer {
   background-color: #2e2f42;
@@ -224,10 +244,13 @@ img {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
-  
 }
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  border: 5px solid #ffffff;
+}
+.container:hover {
+  border: #4d5ae5;
 }
