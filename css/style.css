@@ -249,8 +249,4 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  border: 5px solid #ffffff;
-}
-.container:hover {
-  border: #4d5ae5;
 }
