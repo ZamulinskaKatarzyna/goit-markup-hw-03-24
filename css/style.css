@@ -87,11 +87,16 @@ body {
 
 .background-section-one {
   background-color: #2e2f42;
-  padding: 188px 472px;
+  padding: 188px 0;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+.page-quality {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .title-page {
   font-size: 56px;
