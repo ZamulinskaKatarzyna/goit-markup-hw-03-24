@@ -117,6 +117,7 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin-top: 48px;
 }
 .button-guality:hover,
 .button-guality:focus {
@@ -150,6 +151,7 @@ body {
   gap: 24px;
   list-style-type: none;
 }
+
 .goals-list-items {
   width: calc((100% - 72px) / 4);
 }
